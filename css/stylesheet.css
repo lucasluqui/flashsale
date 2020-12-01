@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+body {
+	background: url('../bg_blur.png') no-repeat center center fixed;
+	background-size: cover;
+	margin-top: 14%;
+	margin-left: 5%;
+	font-family: 'Fjalla One', sans-serif;
+	color: #FFF;
+	font-weight: 100;
+}
+
+.head-message {
+	font-size: 64px;
+}
+
+#mainClock {
+	display: inline-block;
+}
+
+#mainClock > div{
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#mainClock div > span{
+	padding: 15px;
+	border-radius: 3px;
+	font-size: 48px;
+	display: inline-block;
+}
+
+.label {
+	padding-top: 5px;
+	padding-left: 15px;
+	font-size: 24px;
+}
+
+.date {
+	padding-top: 5px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.badge {
+	font-size: 18px !important;
+	margin-left: 20px;
+	margin-top: -45px;
+	padding-right: 15px;
+}

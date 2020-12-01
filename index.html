@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Flash Sale Countdown</title>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<meta name="description" content="A countdown to Spiral Knights next Flash Sale.">
+		<meta name="author" content="lucas-allegri@github">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="css/stylesheet.css" rel="stylesheet">
+	</head>
+	<body>
+		<main>
+			<h1 class="head-message"><b>Flash Sales start in</b> <span class="badge badge-pill badge-warning"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <i>Partially Confirmed</i></span></h1>
+			<!--<h1 class="head-message"><b>Flash Sales start in</b> <span class="badge badge-pill badge-success"><i class="fa fa-check" aria-hidden="true"></i> <i>Confirmed</i></span></h1>-->
+			<!--<h1 class="head-message"><b>The next offer comes up in</b> <a href="https://discord.gg/KkRxPtyKzQ" target="_blank" class="badge badge-pill badge-primary"><i>Discord</i></a></h1>-->
+			<div id="mainClock">
+				<div>
+					<span class="days"></span>
+					<div class="label">Days</div>
+				</div>
+				<div>
+					<span class="hours"></span>
+					<div class="label">Hours</div>
+				</div>
+				<div>
+					<span class="minutes"></span>
+					<div class="label">Minutes</div>
+				</div>
+				<div>
+					<span class="seconds"></span>
+					<div class="label">Seconds</div>
+				</div>
+			</div>
+			
+			<div>
+				<p class="date" id="dateDetailed"><i>{date}</i></p>
+			</div>
+		</main>
+	</body>
+	<script src="js/timer.js"></script>
+</html>
